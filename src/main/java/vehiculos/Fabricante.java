@@ -14,7 +14,7 @@ public class Fabricante {
         listaFabricantes.add(this);
     }
 
-    public Fabricante fabricaMayorVentas(){
+    public static Fabricante fabricaMayorVentas(){
         Fabricante fabricanteVendedor = null;
         int mayor = 0;
         for (int i=0;i<listaFabricantes.size();i++) {

@@ -26,7 +26,7 @@ public class Vehiculo {
         this.fabricante.setNumVehiculos(this.fabricante.getNumVehiculos()+1);
     }
 
-    public String vehiculosPorTipo(){
+    public static String vehiculosPorTipo(){
         return "Automoviles: " + Automovil.getCantidadAutomoviles() + "\nCamionetas: " + Camioneta.getCantidadCamionetas() + "\nCamiones: " + Camion.getCantidadCamiones();
     }
 
